@@ -3,8 +3,6 @@
 # ============================================================================
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sb
 import yfinance as yf
 import plotly.graph_objects as go
 import plotly.express as px
@@ -691,6 +689,7 @@ else:  # System Info
     
     st.subheader("📊 Complete Risk Metrics")
     st.dataframe(risk_metrics.head(20), use_container_width=True)
+
 
 
 
